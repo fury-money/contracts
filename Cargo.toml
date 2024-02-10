@@ -1,0 +1,11 @@
+[package]
+name = "my_contract"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+cosmwasm_std = "0.14.0"
+cosmwasm_storage = "0.14.0"
+
+[lib]
+path = "lib.rs"
